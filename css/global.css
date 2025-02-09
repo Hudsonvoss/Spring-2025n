@@ -1,21 +1,21 @@
 /* Colors */
 
 /*
-60% of #B65049 - Primary 
-30% of #5049B6 - Secondary 
-10% of #49B650 - Accent 
+60% of #B65049 - Primary
+30% of #5049B6 - Secondary
+10% of #49B650 - Accent
 */
 
 :root {
 
 /* var(--primaryColor) !important; */
---primarycolor: #B65049; 
+--primaryColor: #B65049;
 
 /* var(--secondaryColor) !important; */
---secondarycolor: #5049B6; 
+--secondaryColor: #5049B6;
 
 /* var(--accentColor) !important; */
---Accentcolor: #49B650; 
+--accentColor: #49B650;
 
-    
+
 }
