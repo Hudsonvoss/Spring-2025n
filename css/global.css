@@ -1,0 +1,21 @@
+/* colors */
+
+/*
+60% of #B65049 - Primary 
+30% of #5049B6 - Secondary 
+10% of #49B650 - Acent 
+*/
+
+:root {
+
+/* var(--primaryColor) !important; */
+--primarycolor: #B65049; 
+
+/* var(--secondaryColor) !important; */
+--secondarycolor: #5049B6; 
+
+/* var(--AcentColor) !important; */
+--Acentcolor: #49B650; 
+
+    
+}
