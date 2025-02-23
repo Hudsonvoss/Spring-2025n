@@ -12,4 +12,5 @@ body {
 
 .blinn-fa-container {
     background-color: var(--primaryColor) !important;
+    padding: 50px;
 }
