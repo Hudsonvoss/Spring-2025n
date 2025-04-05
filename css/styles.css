@@ -6,8 +6,13 @@ p {
 }
 
 .blinn-fa-icon {
-    font-size: 80px;
+    font-size: 60px;
     color: #ffffff;
+}
+
+.blinn-fa-icon a {
+    color: #ffffff; !important;
+
 }
 
 .blinn-fa-container {
@@ -29,5 +34,5 @@ p {
     width: 100%;
     height: 280px;
     background-color:var(--secondaryColor) !important;
-    clip-path: polygon(0 0, 100% 0%, 73% 50%, 0 51%);
+    clip-path: polygon(0 0, 100% 0, 79% 35%, 17% 35%);
 }
