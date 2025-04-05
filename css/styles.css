@@ -11,7 +11,7 @@ p {
 }
 
 .blinn-fa-container {
-    background-color: var(--primaryColor) !important;
+    background-color: var(--secondaryColor) !important;
     padding: 50px;
 }
 
@@ -22,4 +22,12 @@ p {
     width: 100%;
     height: auto;
     padding-left: 15px;
+}
+
+
+#custom-clip-path {
+    width: 100%;
+    height: 280px;
+    background-color:var(--secondaryColor) !important;
+
 }
