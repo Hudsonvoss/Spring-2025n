@@ -37,3 +37,12 @@ p {
     position: relative;
     margin-top: -5px;
 }
+
+.cropped {
+Width: 250px;
+Height: 250px;
+Margin-top: 15px;
+Border: 10px solid var(--accentColor) !important;
+border-radius: 50%;
+
+}
