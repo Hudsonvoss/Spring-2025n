@@ -54,12 +54,12 @@
             <!--phone-->
             <div>
               <label for="phone">phone</label>
-              <input type="text" name="phone" placeholder="(###) ###-####" />
+              <input type="text" name="phone" id="phone" placeholder="(###) ###-####" />
             </div>
             <!-- start date- date-->
             <div>
               <label for="start date">start date</label>
-              <input type="date" name="startdate" required />
+              <input type="date" id="start-date" name="startdate" required />
             </div>
             <!--Tshirt - select field-->
             <div>
@@ -73,13 +73,20 @@
                 <option value="L">L</option>
                 <option value="X">XL</option>
                 <option value="XXL">XXL</option>
+                <option value="CUSTOM">CUSTOM</option>
               </select>
               <input type="text" name="custom" placeholder="Please input custom size" disabled />
             </div>
 
+            <!--Tshirt Color -color-->
+            <div>
+              <label for="color">T-shirt color</label>
+              <input type="color" name="color" id="color" />
+            </div>
+
             <!--submit button-->
             <div>
-              <input type="submit" name="submit" value="volunteer now" />
+              <input type="submit" name="submit" value="volunteer now" class="submit" />
             </div>
           </div>
         </form>

@@ -8,3 +8,33 @@
     background-color: #fffffd;
     padding: 30 px;
 }
+
+.web-form div {
+    margin-top: 10 px;
+}
+
+#age {
+    width: 120 px;
+}
+
+#custom{
+    margin-top: 5px;
+    display: none;
+}
+
+
+.radio, .checkbox {
+width: 20px !important;
+height: 20px !important;
+}
+
+.submit {
+    border-color:var(--secondaryColor) !important; 
+    background-color: #ffffff ;
+    color: var(--secondaryColor) !important;
+}
+
+.submit:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
